@@ -1,0 +1,20 @@
+[color]
+  ui = auto
+
+[fetch]
+  prune = true
+
+[init]
+  templatedir = ~/.git_template
+
+[merge]
+  ff = only
+
+[pull]
+  rebase = true
+
+[push]
+  default = current
+
+[rebase]
+  autosquash = true
