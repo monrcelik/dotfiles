@@ -1,0 +1,19 @@
+add_newline = false
+
+[cmd_duration]
+disabled = true
+
+[package]
+disabled = true
+
+[git_branch]
+symbol = ""
+
+[nodejs]
+symbol = "n::"
+
+[ruby]
+symbol = "r::"
+
+[rust]
+symbol = "rs::"
