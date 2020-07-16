@@ -6,6 +6,9 @@ Install dependencies:
 
 `brew install fish ripgrep stow starship`
 
+Install pynvim:
+`pip3 install --user pynvim`
+
 Set fish as login shell:
 
 `echo $(which fish) | sudo tee -a /etc/shells`
