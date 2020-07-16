@@ -12,6 +12,9 @@ symbol = ""
 [nodejs]
 symbol = "n::"
 
+[python]
+symbol = "p::"
+
 [ruby]
 symbol = "r::"
 
