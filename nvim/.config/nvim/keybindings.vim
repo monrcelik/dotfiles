@@ -62,3 +62,4 @@ function! ExecuteMacroOverVisualRange()
 endfunction
 
 nmap ga <Plug>(EasyAlign)
+xmap ga <Plug>(EasyAlign)
