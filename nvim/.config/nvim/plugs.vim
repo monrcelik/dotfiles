@@ -16,6 +16,8 @@ Plug 'jiangmiao/auto-pairs'
 
 Plug 'junegunn/vim-easy-align'
 
+Plug 'neomake/neomake'
+
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'

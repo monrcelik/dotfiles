@@ -51,3 +51,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
 let g:ctrlp_use_caching = 0
 let g:ctrlp_working_path_mode = ''
+
+" neomake
+call neomake#configure#automake('nrwi', 500)
