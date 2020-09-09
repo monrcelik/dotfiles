@@ -60,3 +60,5 @@ let g:neomake_kondo_maker = {
       \ 'args': ['--lint'],
       \ 'errorformat': '%f:%l:%c:\ Parse\ %t%*[^:]:\ %m,%f:%l:%c:\ %t%*[^:]:\ %m'
       \ }
+
+let g:clojure_align_subforms = 1
