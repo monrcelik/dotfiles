@@ -54,3 +54,9 @@ let g:ctrlp_working_path_mode = ''
 
 " neomake
 call neomake#configure#automake('nrwi', 500)
+let g:neomake_clojure_enabled_makers = ['kondo']
+let g:neomake_kondo_maker = {
+      \ 'exe': 'clj-kondo',
+      \ 'args': ['--lint'],
+      \ 'errorformat': '%f:%l:%c:\ Parse\ %t%*[^:]:\ %m,%f:%l:%c:\ %t%*[^:]:\ %m'
+      \ }
