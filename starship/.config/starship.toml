@@ -20,3 +20,6 @@ symbol = "r::"
 
 [rust]
 symbol = "rs::"
+
+[terraform]
+symbol = "tf::"
